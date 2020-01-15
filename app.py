@@ -117,7 +117,7 @@ def update_fig(year_slider, country_drop, genre_drop ):
         text= df_loc.name.values,
         marker=dict(
             color=df_loc.score.values,
-            size=(df_loc.score)/7,
+            size=7,
             showscale=True,
             colorbar=dict(title="Average Rating<br> &nbsp;",
                 titleside="top",
