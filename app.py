@@ -430,4 +430,4 @@ def update_fig(year_slider, country_drop, genre_drop ):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=4051)
+    app.run_server(debug=True)
